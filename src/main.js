@@ -3,7 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import fastclick from 'fastclick'
-fastclick(document.body)
+import './assets/css/base.scss'
+import 'swiper/css/swiper.css'
+fastclick.attach(document.body)
 Vue.config.productionTip = false
 
 new Vue({
